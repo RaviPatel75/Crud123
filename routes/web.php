@@ -15,7 +15,7 @@ use App\Http\Controllers\ProductAjaxController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('product');
 });
 
 Route::resource('ajaxproducts',ProductAjaxController::class);
