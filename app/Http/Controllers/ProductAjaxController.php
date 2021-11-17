@@ -15,9 +15,6 @@ class ProductAjaxController extends Controller
      */
     public function index(Request $request)
     {
-        // $alphabet = array_merge(range('A', 'Z'));
-        // dd($request->get('alpha_search'));
-
         if ($request->ajax()) {
             if ($request->get('alpha_search')!= "" )
             {
